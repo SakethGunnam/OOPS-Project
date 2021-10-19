@@ -1,6 +1,6 @@
 
 #include<iostream>
-#include<fstream>>
+#include<fstream>
 #include<stdio.h>
 #include<string.h>
 
@@ -175,11 +175,8 @@ void college_Instructor :: remove_Company()
 
 void college_Instructor :: update_Company()
 {
-	ifstream file;
-    file.open("Companies.txt");
-    
-    ofstream temp;
-    
+	
+    cout<<"Enter the details:";
 }
 
 int main()
