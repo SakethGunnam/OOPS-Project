@@ -110,8 +110,8 @@ void college_Instructor :: add_Company()
 		// The entire data of a single company is stored line-by-line.
 	
 		cout << "Enter the Name of the Company: ";
-		cin >> name;
-		outfile << name << "\t";
+		cin >> Name;
+		outfile << Name << "\t";
 
 		cout << "Enter the Job description: ";
 		cin >> Job_description;
